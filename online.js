@@ -750,8 +750,6 @@ var input = readMetadata("nft1.json");
 var toaddress= "0x2625afC56b47C62C6ba4bCFD346396A4D9b4b085";
 var classId = 1;
 
-contract.methods.balanceOf(toaddress).call((err,result)=>{console.log(result)});
-console.log(contract.methods.randomMint(toaddress).encodeABI());
 
 
 // web3.eth.getTransactionCount(account1, (err, txCount) => {
